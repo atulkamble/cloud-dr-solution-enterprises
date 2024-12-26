@@ -45,6 +45,43 @@
         <a href="lambda_start_ec2.py" download>Download Lambda EC2 Start Script</a>
     </div>
 
-    <p>Ensure all dependencies are installed and configured before running the scripts. Refer to the documentation for detailed instructions.</p>
+    <h2>How to Run the Project</h2>
+    <ol>
+        <li><strong>Set up your environment:</strong>
+            <ul>
+                <li>Ensure you have AWS CLI, Python, and Boto3 installed.</li>
+                <li>Configure AWS CLI with your credentials using <code>aws configure</code>.</li>
+            </ul>
+        </li>
+        <li><strong>Deploy CloudFormation Template:</strong>
+            <ul>
+                <li>Run the CloudFormation YAML file using the AWS Management Console or CLI.</li>
+            </ul>
+        </li>
+        <li><strong>Run Backup to S3 Script:</strong>
+            <ul>
+                <li>Ensure the backup directory exists and is accessible.</li>
+                <li>Execute the <code>backup_to_s3.sh</code> script to create and upload backups to S3.</li>
+            </ul>
+        </li>
+        <li><strong>Create RDS Instance:</strong>
+            <ul>
+                <li>Run the <code>create_rds_instance.sh</code> script to set up the database.</li>
+            </ul>
+        </li>
+        <li><strong>Set up DNS Health Check:</strong>
+            <ul>
+                <li>Use the <code>create_route53_health_check.sh</code> script to configure health checks for failover.</li>
+            </ul>
+        </li>
+        <li><strong>Automate Recovery:</strong>
+            <ul>
+                <li>Deploy the <code>lambda_start_ec2.py</code> script as a Lambda function.</li>
+                <li>Link the Lambda function to CloudWatch for automated triggers.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <p>Refer to the individual script comments and documentation for further details on configuration and execution.</p>
 </body>
 </html>
