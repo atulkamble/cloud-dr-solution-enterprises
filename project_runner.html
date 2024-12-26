@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Runner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .file-link {
+            margin: 10px 0;
+        }
+        .file-link a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .file-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cloud-Based Disaster Recovery Project</h1>
+    <p>Select a file to view or run:</p>
+
+    <div class="file-link">
+        <a href="cloud_dr_resources.yaml" download>Download CloudFormation Template</a>
+    </div>
+
+    <div class="file-link">
+        <a href="backup_to_s3.sh" download>Download Backup to S3 Script</a>
+    </div>
+
+    <div class="file-link">
+        <a href="create_rds_instance.sh" download>Download RDS Instance Creation Script</a>
+    </div>
+
+    <div class="file-link">
+        <a href="create_route53_health_check.sh" download>Download Route 53 Health Check Script</a>
+    </div>
+
+    <div class="file-link">
+        <a href="lambda_start_ec2.py" download>Download Lambda EC2 Start Script</a>
+    </div>
+
+    <p>Ensure all dependencies are installed and configured before running the scripts. Refer to the documentation for detailed instructions.</p>
+</body>
+</html>
