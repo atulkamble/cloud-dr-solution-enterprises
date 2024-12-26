@@ -1,4 +1,4 @@
-*Cloud-based Disaster Recovery Solutions for Enterprises*
+**Cloud-based Disaster Recovery Solutions for Enterprises**
 
 Creating a **Cloud-Based Disaster Recovery Solution** involves several components like setting up backup processes, implementing recovery plans, and automating failover mechanisms. Below is a structured project outline with code snippets for a basic Disaster Recovery (DR) solution leveraging AWS services like S3, EC2, RDS, and CloudFormation. 
 
