@@ -4,6 +4,27 @@ Creating a **Cloud-Based Disaster Recovery Solution** involves several component
 
 ---
 
+## Cloning the Repository
+
+To clone this project, follow these steps:
+
+1. **Ensure Git is Installed**  
+   Make sure you have Git installed on your system. If not, you can download it from [Git Official Website](https://git-scm.com/).
+
+2. **Clone the Repository**  
+   Run the following command in your terminal or command prompt:
+
+   ```bash
+   git clone https://github.com/atulkamble/cloud-dr-solution-enterprises.git
+   ```
+
+3. **Navigate to the Project Directory**  
+   After cloning, move into the project directory:
+
+   ```bash
+   cd cloud-dr-solution-enterprises
+   ```
+
 ### **1. Project Overview**
 This solution focuses on:
 - Regularly backing up critical data and applications.
